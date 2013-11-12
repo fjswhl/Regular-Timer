@@ -23,7 +23,6 @@
 		A2E48FD41832702300D5B0BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2E48FD21832702300D5B0BB /* InfoPlist.strings */; };
 		A2E48FD61832702300D5B0BB /* Regular_TimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E48FD51832702300D5B0BB /* Regular_TimerTests.m */; };
 		A2E48FE01832704600D5B0BB /* ourStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2E48FDF1832704600D5B0BB /* ourStoryboard.storyboard */; };
-		A2E48FE31832711700D5B0BB /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E48FE21832711700D5B0BB /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +55,6 @@
 		A2E48FD31832702300D5B0BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A2E48FD51832702300D5B0BB /* Regular_TimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Regular_TimerTests.m; sourceTree = "<group>"; };
 		A2E48FDF1832704600D5B0BB /* ourStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ourStoryboard.storyboard; sourceTree = "<group>"; };
-		A2E48FE11832711700D5B0BB /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		A2E48FE21832711700D5B0BB /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,8 +118,6 @@
 			children = (
 				A2E48FBB1832702300D5B0BB /* SHUAppDelegate.h */,
 				A2E48FBC1832702300D5B0BB /* SHUAppDelegate.m */,
-				A2E48FE11832711700D5B0BB /* TestViewController.h */,
-				A2E48FE21832711700D5B0BB /* TestViewController.m */,
 				A2E48FDF1832704600D5B0BB /* ourStoryboard.storyboard */,
 				A2E48FC11832702300D5B0BB /* Images.xcassets */,
 				A2E48FBE1832702300D5B0BB /* Regular_Timer.xcdatamodeld */,
@@ -260,7 +255,6 @@
 			files = (
 				A2E48FB91832702300D5B0BB /* main.m in Sources */,
 				A2E48FC01832702300D5B0BB /* Regular_Timer.xcdatamodeld in Sources */,
-				A2E48FE31832711700D5B0BB /* TestViewController.m in Sources */,
 				A2E48FBD1832702300D5B0BB /* SHUAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
