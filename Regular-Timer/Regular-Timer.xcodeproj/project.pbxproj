@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A25FAD861833DF9D0088E72E /* Project.m in Sources */ = {isa = PBXBuildFile; fileRef = A25FAD851833DF9D0088E72E /* Project.m */; };
+		A26D00A21833AB7A00D9040F /* TimeUsingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A26D00A11833AB7A00D9040F /* TimeUsingCell.m */; };
 		A2E48FAB1832702300D5B0BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E48FAA1832702300D5B0BB /* Foundation.framework */; };
 		A2E48FAD1832702300D5B0BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E48FAC1832702300D5B0BB /* CoreGraphics.framework */; };
 		A2E48FAF1832702300D5B0BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E48FAE1832702300D5B0BB /* UIKit.framework */; };
@@ -23,6 +25,12 @@
 		A2E48FD41832702300D5B0BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2E48FD21832702300D5B0BB /* InfoPlist.strings */; };
 		A2E48FD61832702300D5B0BB /* Regular_TimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E48FD51832702300D5B0BB /* Regular_TimerTests.m */; };
 		A2E48FE01832704600D5B0BB /* ourStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2E48FDF1832704600D5B0BB /* ourStoryboard.storyboard */; };
+		A2E48FEB18328A4400D5B0BB /* TimeUsingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E48FEA18328A4400D5B0BB /* TimeUsingViewController.m */; };
+		A2E4900318328D1200D5B0BB /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2E48FEF18328D1200D5B0BB /* check@2x.png */; };
+		A2E4900418328D1200D5B0BB /* clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2E48FF018328D1200D5B0BB /* clock@2x.png */; };
+		A2E4900518328D1200D5B0BB /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2E48FF118328D1200D5B0BB /* cross@2x.png */; };
+		A2E4900B18328D1200D5B0BB /* list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A2E48FF918328D1200D5B0BB /* list@2x.png */; };
+		A2E4900F18328D1200D5B0BB /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E48FFF18328D1200D5B0BB /* SWTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A25FAD841833DF9D0088E72E /* Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Project.h; sourceTree = "<group>"; };
+		A25FAD851833DF9D0088E72E /* Project.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Project.m; sourceTree = "<group>"; };
+		A26D00A01833AB7A00D9040F /* TimeUsingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeUsingCell.h; sourceTree = "<group>"; };
+		A26D00A11833AB7A00D9040F /* TimeUsingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeUsingCell.m; sourceTree = "<group>"; };
 		A2E48FA71832702300D5B0BB /* Regular-Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Regular-Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2E48FAA1832702300D5B0BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A2E48FAC1832702300D5B0BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +67,14 @@
 		A2E48FD31832702300D5B0BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A2E48FD51832702300D5B0BB /* Regular_TimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Regular_TimerTests.m; sourceTree = "<group>"; };
 		A2E48FDF1832704600D5B0BB /* ourStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ourStoryboard.storyboard; sourceTree = "<group>"; };
+		A2E48FE918328A4400D5B0BB /* TimeUsingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeUsingViewController.h; sourceTree = "<group>"; };
+		A2E48FEA18328A4400D5B0BB /* TimeUsingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeUsingViewController.m; sourceTree = "<group>"; };
+		A2E48FEF18328D1200D5B0BB /* check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check@2x.png"; sourceTree = "<group>"; };
+		A2E48FF018328D1200D5B0BB /* clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock@2x.png"; sourceTree = "<group>"; };
+		A2E48FF118328D1200D5B0BB /* cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross@2x.png"; sourceTree = "<group>"; };
+		A2E48FF918328D1200D5B0BB /* list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list@2x.png"; sourceTree = "<group>"; };
+		A2E48FFE18328D1200D5B0BB /* SWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewCell.h; sourceTree = "<group>"; };
+		A2E48FFF18328D1200D5B0BB /* SWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				A2E48FB21832702300D5B0BB /* Regular-Timer */,
+				A2E48FCF1832702300D5B0BB /* Regular-TimerTests */,
 				A2E48FA91832702300D5B0BB /* Frameworks */,
 				A2E48FA81832702300D5B0BB /* Products */,
 			);
@@ -116,13 +137,10 @@
 		A2E48FB21832702300D5B0BB /* Regular-Timer */ = {
 			isa = PBXGroup;
 			children = (
-				A2E48FBB1832702300D5B0BB /* SHUAppDelegate.h */,
-				A2E48FBC1832702300D5B0BB /* SHUAppDelegate.m */,
-				A2E48FDF1832704600D5B0BB /* ourStoryboard.storyboard */,
-				A2E48FC11832702300D5B0BB /* Images.xcassets */,
-				A2E48FBE1832702300D5B0BB /* Regular_Timer.xcdatamodeld */,
-				A2E48FCF1832702300D5B0BB /* Regular-TimerTests */,
-				A2E48FB31832702300D5B0BB /* Supporting Files */,
+				A2E48FE71832762A00D5B0BB /* Fundamental Layer */,
+				A2E48FE51832760E00D5B0BB /* Precentation Layer */,
+				A2E48FE61832761800D5B0BB /* Business Layer */,
+				A2E48FE41832760300D5B0BB /* Presistenct Layer */,
 			);
 			path = "Regular-Timer";
 			sourceTree = "<group>";
@@ -134,6 +152,7 @@
 				A2E48FB51832702300D5B0BB /* InfoPlist.strings */,
 				A2E48FB81832702300D5B0BB /* main.m */,
 				A2E48FBA1832702300D5B0BB /* Regular-Timer-Prefix.pch */,
+				A2E48FC11832702300D5B0BB /* Images.xcassets */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -154,6 +173,83 @@
 				A2E48FD21832702300D5B0BB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2E48FE41832760300D5B0BB /* Presistenct Layer */ = {
+			isa = PBXGroup;
+			children = (
+				A2E48FBE1832702300D5B0BB /* Regular_Timer.xcdatamodeld */,
+				A25FAD841833DF9D0088E72E /* Project.h */,
+				A25FAD851833DF9D0088E72E /* Project.m */,
+			);
+			name = "Presistenct Layer";
+			sourceTree = "<group>";
+		};
+		A2E48FE51832760E00D5B0BB /* Precentation Layer */ = {
+			isa = PBXGroup;
+			children = (
+				A2E48FDF1832704600D5B0BB /* ourStoryboard.storyboard */,
+			);
+			name = "Precentation Layer";
+			sourceTree = "<group>";
+		};
+		A2E48FE61832761800D5B0BB /* Business Layer */ = {
+			isa = PBXGroup;
+			children = (
+				A2E48FE818328A1800D5B0BB /* Time-Using */,
+			);
+			name = "Business Layer";
+			sourceTree = "<group>";
+		};
+		A2E48FE71832762A00D5B0BB /* Fundamental Layer */ = {
+			isa = PBXGroup;
+			children = (
+				A2E4901118328F9F00D5B0BB /* AppDelegate */,
+				A2E48FEC18328D1200D5B0BB /* SWTableViewCell */,
+				A2E48FB31832702300D5B0BB /* Supporting Files */,
+			);
+			name = "Fundamental Layer";
+			sourceTree = "<group>";
+		};
+		A2E48FE818328A1800D5B0BB /* Time-Using */ = {
+			isa = PBXGroup;
+			children = (
+				A2E48FE918328A4400D5B0BB /* TimeUsingViewController.h */,
+				A2E48FEA18328A4400D5B0BB /* TimeUsingViewController.m */,
+				A26D00A01833AB7A00D9040F /* TimeUsingCell.h */,
+				A26D00A11833AB7A00D9040F /* TimeUsingCell.m */,
+			);
+			name = "Time-Using";
+			sourceTree = "<group>";
+		};
+		A2E48FEC18328D1200D5B0BB /* SWTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A2E48FFE18328D1200D5B0BB /* SWTableViewCell.h */,
+				A2E48FFF18328D1200D5B0BB /* SWTableViewCell.m */,
+				A2E490151832911F00D5B0BB /* clickPics */,
+			);
+			path = SWTableViewCell;
+			sourceTree = "<group>";
+		};
+		A2E4901118328F9F00D5B0BB /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A2E48FBB1832702300D5B0BB /* SHUAppDelegate.h */,
+				A2E48FBC1832702300D5B0BB /* SHUAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A2E490151832911F00D5B0BB /* clickPics */ = {
+			isa = PBXGroup;
+			children = (
+				A2E48FEF18328D1200D5B0BB /* check@2x.png */,
+				A2E48FF018328D1200D5B0BB /* clock@2x.png */,
+				A2E48FF118328D1200D5B0BB /* cross@2x.png */,
+				A2E48FF918328D1200D5B0BB /* list@2x.png */,
+			);
+			name = clickPics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +328,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2E4900418328D1200D5B0BB /* clock@2x.png in Resources */,
 				A2E48FB71832702300D5B0BB /* InfoPlist.strings in Resources */,
 				A2E48FC21832702300D5B0BB /* Images.xcassets in Resources */,
+				A2E4900B18328D1200D5B0BB /* list@2x.png in Resources */,
 				A2E48FE01832704600D5B0BB /* ourStoryboard.storyboard in Resources */,
+				A2E4900318328D1200D5B0BB /* check@2x.png in Resources */,
+				A2E4900518328D1200D5B0BB /* cross@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,9 +353,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2E48FEB18328A4400D5B0BB /* TimeUsingViewController.m in Sources */,
+				A26D00A21833AB7A00D9040F /* TimeUsingCell.m in Sources */,
 				A2E48FB91832702300D5B0BB /* main.m in Sources */,
 				A2E48FC01832702300D5B0BB /* Regular_Timer.xcdatamodeld in Sources */,
 				A2E48FBD1832702300D5B0BB /* SHUAppDelegate.m in Sources */,
+				A25FAD861833DF9D0088E72E /* Project.m in Sources */,
+				A2E4900F18328D1200D5B0BB /* SWTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +560,7 @@
 				A2E48FDB1832702300D5B0BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2E48FDC1832702300D5B0BB /* Build configuration list for PBXNativeTarget "Regular-TimerTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +569,7 @@
 				A2E48FDE1832702300D5B0BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
